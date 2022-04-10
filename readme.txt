@@ -6,13 +6,17 @@ http://y78.fr/3/
 
 
 
-I have decided my site will have a simple right hand navigation menu containing, Home, Photography, Sites, Contact
+I have decided my site will have a simple Top navigation menu containing, Home, Photography, Sites, Contact
 
 The design will be responsive to the device used to access it, to avoid issues when using mobile devices etc, and will factor in accessability for those who are visually impaired for example.
 
-My target audience is a recuiter and goal is to sell myself and my experience(some content examples are not my own) to sell myself in the best possible light.
+I wnated to bring the concept of accesability into the design also, creating a simple monochromatic affect with a simple flow to ensure if screen readers are being used it is not overly complex to navigate.
 
-The brief for this progect was to create a static web page to  include 3 pages, 
+I downloaded the  screen reader plugin which really allowed me the opportunity to experience the web page as a visually impaired user.
+
+My target audience is a recuiter or potential employer, and the  goal is to sell myself and my experience(some content examples are not my own) to sell myself in the best possible light.
+
+The brief for this project was to create a static web page to  include 3 pages.
 
 In this project, you’ll build a static front-end site to present useful information to
 users, using all the technologies that you have learned about so far.
@@ -32,6 +36,36 @@ Advanced potential feature (nice-to-have)
 that you'd build later, feel free to include links to fake projects or
 random sites on the internet at this stage)
 
+Features:
+Contact me page
+Social Media links
+Download button to easily download a copy of my CV
+Portfolio page with sample projects borrowed from the below: (not my work)
+
+UX Design - Jesse James Garrett 
+Useful usable and valuable (UX def) generating a positive emotional response 
+
+staretgy for who and what 
+
+how will user navigate
+Scope plane- what features based on information from the strategy plane, do you want to include in your design. What's on the table for production release and what's not at least for now
+
+structure plane- how is the information structured and how is it logically grouped?
+
+Skeleton Plane - how will the information be represented & how will users navigate through the page / features 
+
+Surface Plane - what will the finihsed prouct look like colors / typography and design elements  etc will we use
+
+
+UX strategy= design strategy + Business strategyFocus - what's worth doing + definition - what are we creating + vlaue - what value does it provide??
+
+
+
 
 
 Testing:
+Phase 1 
+
+Phase 2 
+
+Phase 3
