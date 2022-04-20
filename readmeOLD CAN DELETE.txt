@@ -59,7 +59,28 @@ Surface Plane - what will the finihsed prouct look like colors / typography and 
 
 UX strategy= design strategy + Business strategyFocus - what's worth doing + definition - what are we creating + vlaue - what value does it provide??
 
+3 step rule of thumb - simplify 
 
+Viability / importance 
+
+what is high for this iteration
+
+
+mixed content works together to fulfit a requirement. Requirements are needs not features 
+
+
+
+List all the features of your product.
+Give each feature a difficulty level ranging between 1 and 3, with 3 being the maximum difficulty.
+Given limited resources, you have a maximum of 12 points to use across the releases. Within these constraints, determine which features for release will provide most value for you and your users
+
+
+
+404 error page providing a link back to safety 
+balsamic / MArvel App.
+
+Bassamiq wireframes app licnece:
+License Key: CodeInstitute2021|6s3jeJxzCncxiQ+pcc5PSVXwzCsuySwpLUlVMDIwMqwxNDOztDQysTAAAQAHpAuj
 
 
 
