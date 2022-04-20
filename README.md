@@ -1,8 +1,8 @@
 # COURSE-WORK
 course work for Software Development Diploma
-My idea for Project 1 is to put together a Portfolio site which I will use when looking for work as a web developer when I have completed my Diploma.
+My idea for Project 1 is to put together a Portfolio site which I will use when looking for work as an associate web developer when I have completed my Diploma.
 
-I really didn't know where to begin in terms of design or structure in general so I looked at sites such as thre below for inspiration as to what an award winnihng porfolio site looks like:
+I really didn't know where to begin in terms of design or structure in general so I looked at sites such as the two below for inspiration as to what an award winning porfolio site looks like:
 http://www.rleonardi.com/design-portfolio/
 http://y78.fr/3/
 
@@ -12,7 +12,7 @@ I have decided my site will have a simple Top navigation menu containing, Home, 
 
 The design will be responsive to the device used to access it, to avoid issues when using mobile devices etc, and will factor in accessability for those who are visually impaired for example.
 
-I wnated to bring the concept of accesability into the design also, creating a simple monochromatic affect with a simple flow to ensure if screen readers are being used it is not overly complex to navigate.
+I wanted to bring the concept of accesability into the design also, creating a simple monochromatic affect with a simple flow to ensure if screen readers are being used it is not overly complex to navigate.
 
 I downloaded the  screen reader plugin which really allowed me the opportunity to experience the web page as a visually impaired user.
 
