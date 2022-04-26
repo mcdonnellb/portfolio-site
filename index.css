@@ -107,7 +107,7 @@ height:150px;
 
 .gallery h1 {
 	position:absolute;
-    padding:left:20%;
+    padding-left: 20%;
 	margin:20%;
 	
 	
@@ -124,7 +124,7 @@ height:150px;
  p {
 	
 	position:relative;
-	padding:left:20%;
+	padding-left:20%;
 	margin:20%;
 	Padding-top:150px;
    
@@ -145,6 +145,36 @@ height:150px;
     height:56px;
   text-transform: uppercase;	
 }
+
+
+footer {
+  height: 150px;
+  
+  
+  }
+  
+  .social-networks {
+  
+     text-align:center;
+  
+  }
+  
+  
+  .social-networks > li {
+  
+     display:inline;
+   
+   }
+  
+   .social-networks  i {
+  font-size:160%; 
+  margin:1%;
+  padding:5%;
+  color: #3a3a3a;
+   }
+
+
+
 /* move the contact page down a bit*/
 label, input {
 	 margin-bottom: 20px;
@@ -159,7 +189,7 @@ label, input {
 label {
     margin-bottom: 20px;
 	margin-top:10px;
-	margin:left:300px;
+	margin-left:300px;
 	float:center;
 	
 }
