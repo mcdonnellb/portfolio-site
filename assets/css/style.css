@@ -148,7 +148,7 @@ height:150px;
 /* Footer styline*
 /*styling the icons for social media*/
 
-#contact {
+#contactform {
   display: block;
   float:center;
   padding: 200px;
@@ -162,9 +162,17 @@ height:150px;
   text-transform: uppercase;	
 }
 
-#contact submit {
+ button {
 
 width:200px;
+
+}
+
+#contactsection{
+top:5%;
+float:right;
+display:inline-table;
+position:absolute;
 
 }
 
@@ -190,7 +198,6 @@ footer {
   
    .social-networks  i {
   font-size:160%; 
-  margin:1%;
   padding:5%;
   color: #3a3a3a;
    }
