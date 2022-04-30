@@ -3,8 +3,13 @@
 /* Styling the navigation menu */
 .navbar {
 
+  top:5px;
+  width:100%;
   background-color: black;
   overflow: auto;
+  position: fixed;
+  width:100%;
+  display:block;
 }
 
 /* Navigation bar  links */
@@ -121,7 +126,7 @@ height:150px;
 
  p {
 	
-	position:relative;
+	position:fixed;
 	padding-left:20%;
 	margin:20%;
 	Padding-top:150px;
@@ -134,6 +139,7 @@ height:150px;
   padding-left: 20%;
   margin: 20%;
   Padding-top: 150px;
+  text-transform: uppercase;
 
 }
 
@@ -144,8 +150,9 @@ height:150px;
 
 #contact {
   display: block;
-  float:right;
-  padding: 20px;
+  float:center;
+  padding: 200px;
+  top:70px;
   width: 200px;
   Height:500px;
   text-align: center;
@@ -155,9 +162,15 @@ height:150px;
   text-transform: uppercase;	
 }
 
+#contact submit {
+
+width:200px;
+
+}
+
 
 footer {
-  height: 150px;
+  height: 5%;
   
   
   }
@@ -186,23 +199,23 @@ footer {
 
 /* move the contact page down a bit*/
 label, input {
-	 margin-bottom: 20px;
+	margin-bottom: 20px;
 	margin-top:30px;
 		
 	left:500px;
-    display: block;
+  display: block;
 	padding: 20px;
 	float:center;
 }
 
 label {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 	margin-top:10px;
 	margin-left:300px;
 	float:center;
 	
 }
-/* This isnt working at all */
+
 
 
 /*  hover effect for social sites- add for main navbar too looks better than what I have  */
@@ -217,11 +230,11 @@ label {
   background: #3B5998;
   color: white;
   font-size: 70%;
-  width:20%;
-  height:56px;
+  width:10%;
+  height:5%;
   text-transform: uppercase;
   text-align: center;
-    display: inline-block;
+  display: inline-block;
 }
 
 
@@ -230,53 +243,86 @@ label {
   background: #55ACEE;
   color: white;
   font-size: 70%;
-  width:20%;
-  height:56px;
+  width:10%;
+  height:5%;
   text-transform: uppercase;
   text-align: center;
-   display: inline-block;
+  
   
 }
-.fa-instagram {
-  background: #55ACEE;
+.fa-instagram-square {
+  background:#bc2a8d;
   color: white;
   font-size: 70%;
-  width:20%;
-  height:56px;
+  width:10%;
+  height:5%;
   text-transform: uppercase;
   text-align: center;
    display: inline-block;
   
 }
-
-
+.fa-github {
+  background: #030303;
+  color: white;
+  font-size: 70%;
+  width:10%;
+  height:5%;
+  text-transform: uppercase;
+  text-align: center;
+   display: inline-block;
+  
+}
+/* functionality for the contact page*/
 .download {
+  position:relative;
   background-color: black;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 70%;
-  width:20%;
-  height:56px;
+  display: block;
+  width:100px;
+  height:100px;
   text-transform: uppercase;
   text-align: center;
+  float:right;
+  right: 5%;
+  top:100px;
 }
 
 .mail {
-  background-color: black; /* Green */
-  border: none;
+background-color: black; /* Green */
+  border: 200px;
   color: white;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 70%;
-  width:20%;
-  height:56px;
+  width:100px;
+  height:100px;
+  position:relative;
   text-transform: uppercase;
   text-align: center;
+  position:absolute;
+  float:right;
+  right:5%;
+  top:100px;
+}
+
+#testdiv {
+
+  background-color: black; /* Green */
+  border: 200px;
+  color: white;
+  text-decoration: none;
+  width:100px;
+  height:100px;
   position:relative;
+  text-transform: uppercase;
+  text-align: center;
+  position:absolute;
+  float:right;
+ 
+ 
+
+
 }
 
 .mail:hover {
