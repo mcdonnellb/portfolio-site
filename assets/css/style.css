@@ -1,21 +1,21 @@
 
 
-/* Style the navigation menu */
+/* Styling the navigation menu */
 .navbar {
 
   background-color: black;
   overflow: auto;
 }
 
-/* Navigation links */
+/* Navigation bar  links */
 .navbar a {
   float: left;
   padding: 20px;
   margin:10px;
   color: white;
   text-decoration: none;
-  width: 10%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
+  width: 10%; 
+  text-align: center; 
   text-transform: uppercase;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
   font-size: 70%;
@@ -25,7 +25,7 @@
   line-height: 26.4px; } 
 
 
-/* Add a background color on mouse-over */
+/* Adding a background color on mouse-over */
 .navbar a:hover {
   background-color: gray;
 }
@@ -37,7 +37,7 @@
   .navbar a {
     
     display: block;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    text-align: left; 
 	font-size: 5px;
     font-style: normal; 
 }
@@ -46,8 +46,7 @@
   .navbar {
     
     display: block;
- 
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+  text-align: left; /* If you want the text to be left-aligned on small screens */
 	 font-size: 2px;
  font-style: normal; 
 
@@ -57,8 +56,7 @@
 #bm {
 
 	display: block;
- 
-    text-align: left; 
+  text-align: left; 
 	
 }
 
@@ -130,7 +128,18 @@ height:150px;
    
 }
 
+.welcomelanding {
 
+  position: relative;
+  padding-left: 20%;
+  margin: 20%;
+  Padding-top: 150px;
+
+}
+
+
+
+/* Footer styline*
 /*styling the icons for social media*/
 
 #contact {
@@ -228,6 +237,17 @@ label {
    display: inline-block;
   
 }
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+  font-size: 70%;
+  width:20%;
+  height:56px;
+  text-transform: uppercase;
+  text-align: center;
+   display: inline-block;
+  
+}
 
 
 .download {
@@ -269,7 +289,7 @@ label {
 
 
 #bm {
-	/* Styling the Bernadette McDonnell item in the nav bar */
+	/* Styling the Bernadette McDonnell item in the nav bar, this isnt a button so dont want it to change on hover */
   background-color: black;
   color: white;
   Float:right;
