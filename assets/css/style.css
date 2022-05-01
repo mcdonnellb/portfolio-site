@@ -10,7 +10,7 @@
   position: fixed;
   width:100%;
   display:block;
-  border: 3px solid green;
+  border: 3px solid lightcoral;
 }
 
 /* Navigation bar  links */
@@ -161,6 +161,19 @@ input,  select, textarea {
   
 }
 
+p {
+
+    font:arial;
+    text-transform:upper;
+     color: #030303;
+     padding: 20px;
+     top:500px;
+   
+   }
+   
+
+
+
 #contactsection{
 margin-top:300px;
 top:300px;
@@ -197,7 +210,7 @@ height:200px;
   color: white;
   padding: 12px 20px;
   cursor: pointer;
-  border: 3px solid green;
+  border: 3px solid lightcoral;
 }
 
 #contactbutton:hover {
@@ -330,7 +343,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  border: 3px solid green;
+  border: 3px solid lightcoral;
 
 }
 
@@ -353,7 +366,7 @@ background-color: black;
   justify-content: center;
   align-items: center;
   height: 100px;
-  border: 3px solid green;
+  border: 3px solid lightcoral;
 
 }
 
@@ -375,7 +388,7 @@ background-color: black;
     justify-content: center;
     align-items: center;
     height: 100px;
-    border: 3px solid green;
+    border: 3px solid lightcoral;
   
   }
   
@@ -419,5 +432,34 @@ height: 500px;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.938);
 
+
+ }
+
+ #professionalsummarysection {
+
+  position: relative;
+  padding-left: 20%;
+  margin: 10%;
+  Padding-top: 550px;
+  float:center;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+
+
+
+
+ }
+
+ personalgallery{
+
+  width: 50%;
+
+ }
+
+ personalgallery img {
+
+width:50%;
+height: 50%;
 
  }
