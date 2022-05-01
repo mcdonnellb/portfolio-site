@@ -10,6 +10,7 @@
   position: fixed;
   width:100%;
   display:block;
+  border: 3px solid green;
 }
 
 /* Navigation bar  links */
@@ -160,7 +161,15 @@ input,  select, textarea {
   
 }
 
+#contactsection{
+margin-top:300px;
+top:300px;
+right:20%;
+display:inline-flexbox;
+width: 200px;
+height:200px;
 
+}
 
 
 #contactform {
@@ -177,6 +186,7 @@ input,  select, textarea {
   height:56px;
   text-transform: uppercase;	
   position:fixed;
+  padding:3%;
   
 }
 
@@ -186,9 +196,8 @@ input,  select, textarea {
   background-color: #000000;
   color: white;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
+  border: 3px solid green;
 }
 
 #contactbutton:hover {
@@ -200,10 +209,15 @@ input,  select, textarea {
   top:30%;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 3%;
   float:center;
 }
 
+form.container {
+
+margin: 3%;
+
+}
 
 h2.container {
 
@@ -302,9 +316,7 @@ footer {
   background-color: black;
   border-radius: 50%;
   color: white;
-  text-align: center;
   text-decoration: none;
-  display: block;
   width:100px;
   height:100px;
   text-transform: uppercase;
@@ -313,6 +325,12 @@ footer {
   float:right;
   right:5%;
   top:70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 3px solid green;
 
 }
 
@@ -330,7 +348,37 @@ background-color: black;
   float:right;
   right:5%;
   top:50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 3px solid green;
+
 }
+
+.phone {
+  background-color: black; 
+    border: 200px;
+    color: white;
+    text-decoration: none;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    position:absolute;
+    float:right;
+    right:5%;
+    top:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 3px solid green;
+  
+  }
+  
 
 .mail:hover {
   opacity: 0.7;
@@ -352,3 +400,24 @@ background-color: black;
  font-variant: normal; 
  font-weight: 700; 
  line-height: 26.4px; } 
+
+
+ fa-solid fa-angle-down {
+
+  scroll-behavior: smooth;
+
+ }
+
+ html{
+
+  scroll-behavior: smooth;
+ }
+
+
+ #aboutmegallery{
+height: 500px;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.938);
+
+
+ }
