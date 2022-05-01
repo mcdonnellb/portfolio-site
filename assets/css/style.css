@@ -4,11 +4,11 @@
 .navbar {
 
   top:5px;
+  height:80px;
   width:100%;
   background-color: black;
-  overflow: auto;
+  overflow:clip ;
   position: fixed;
-  width:100%;
   display:block;
   border: 3px solid lightcoral;
 }
@@ -36,6 +36,14 @@
   background-color: gray;
 }
 
+#noscroll{
+position:fixed;
+height: 150 px;
+width:100%;
+overflow: hidden;
+
+
+}
 
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -138,8 +146,7 @@ height:150px;
   position: relative;
   padding-left: 20%;
   margin: 10%;
-  Padding-top: 150px;
-  float:center;
+  padding-top: 150px;
   text-transform: uppercase;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: xx-large;
@@ -325,6 +332,27 @@ footer {
   
 }
 
+/* adding a container for the mail, call and download buttons to sit below Nav Bar but above contact form*/
+
+.flex-container {
+width: 100%;
+height: 200px;
+background: lightcoral;
+top: 200px;
+display: flex;
+position: relative;
+overflow:none;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
 .download {
   background-color: black;
   border-radius: 50%;
@@ -335,10 +363,6 @@ footer {
   text-transform: uppercase;
   text-align: center;
   position:absolute;
-  float:right;
-  right:5%;
-  top:70%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,10 +382,6 @@ background-color: black;
   text-transform: uppercase;
   text-align: center;
   position:absolute;
-  float:right;
-  right:5%;
-  top:50%;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,9 +401,6 @@ background-color: black;
     text-transform: uppercase;
     text-align: center;
     position:absolute;
-    float:right;
-    right:5%;
-    top:90%;
     display: flex;
     justify-content: center;
     align-items: center;
