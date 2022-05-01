@@ -43,17 +43,16 @@
     
     display: block;
     text-align: left; 
-	font-size: 5px;
+	  font-size: 5px;
     font-style: normal; 
 }
   
   
   .navbar {
-    
     display: block;
-  text-align: left; /* If you want the text to be left-aligned on small screens */
-	 font-size: 2px;
- font-style: normal; 
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+	  font-size: 2px;
+    font-style: normal; 
 
 
 
@@ -137,50 +136,90 @@ height:150px;
 
   position: relative;
   padding-left: 20%;
-  margin: 20%;
+  margin: 10%;
   Padding-top: 150px;
+  float:center;
   text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  
 
+}
+/* Styling elements in contact form */
+input,  select, textarea {
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 120px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  float:center;
+ 
+  
 }
 
 
 
-/* Footer styline*
-/*styling the icons for social media*/
 
 #contactform {
   display: block;
   float:center;
-  padding: 200px;
+  margin:20%;
   top:70px;
+  left:70px;
   width: 200px;
-  Height:500px;
+  height:500px;
   text-align: center;
   text-decoration: none;
-    font-size: 50%;
-    height:56px;
+  font-size: 50%;
+  height:56px;
   text-transform: uppercase;	
+  position:fixed;
+  
 }
 
- button {
 
-width:200px;
+
+ #contactbutton {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contactbutton:hover {
+  background-color: gray;
+}
+
+
+.container {
+  top:30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  float:center;
+}
+
+
+h2.container {
+
+ font:arial;
+ text-transform:upper;
+  color: #030303;
+  padding: 20px;
 
 }
 
-#contactsection{
-top:5%;
-float:right;
-display:inline-table;
-position:absolute;
-
-}
 
 
 footer {
   height: 5%;
   
-  
+
   }
   
   .social-networks {
@@ -198,31 +237,10 @@ footer {
   
    .social-networks  i {
   font-size:160%; 
-  padding:5%;
+  padding:3%;
   color: #3a3a3a;
+  bottom:20px;
    }
-
-
-
-/* move the contact page down a bit*/
-label, input {
-	margin-bottom: 20px;
-	margin-top:30px;
-		
-	left:500px;
-  display: block;
-	padding: 20px;
-	float:center;
-}
-
-label {
-  margin-bottom: 20px;
-	margin-top:10px;
-	margin-left:300px;
-	float:center;
-	
-}
-
 
 
 /*  hover effect for social sites- add for main navbar too looks better than what I have  */
@@ -279,11 +297,10 @@ label {
    display: inline-block;
   
 }
-/* functionality for the contact page*/
+
 .download {
-  position:relative;
   background-color: black;
-  border: none;
+  border-radius: 50%;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -292,44 +309,27 @@ label {
   height:100px;
   text-transform: uppercase;
   text-align: center;
+  position:absolute;
   float:right;
-  right: 5%;
-  top:100px;
+  right:5%;
+  top:70%;
+
 }
 
 .mail {
-background-color: black; /* Green */
+background-color: black; 
   border: 200px;
   color: white;
   text-decoration: none;
   width:100px;
   height:100px;
-  position:relative;
+  border-radius: 50%;
   text-transform: uppercase;
   text-align: center;
   position:absolute;
   float:right;
   right:5%;
-  top:100px;
-}
-
-#testdiv {
-
-  background-color: black; /* Green */
-  border: 200px;
-  color: white;
-  text-decoration: none;
-  width:100px;
-  height:100px;
-  position:relative;
-  text-transform: uppercase;
-  text-align: center;
-  position:absolute;
-  float:right;
- 
- 
-
-
+  top:50%;
 }
 
 .mail:hover {
