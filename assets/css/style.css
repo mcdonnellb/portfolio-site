@@ -101,7 +101,7 @@ body {
 .gallery img {
 Padding-top: 20px;
 border:30px solid black;
-width:150 px;
+width:150px;
 height:150px;
     
 }
@@ -171,17 +171,17 @@ input,  select, textarea {
   border-radius: 4px; 
   box-sizing: border-box; 
   resize: vertical;
-  float:center;
   margin: 20px auto;
   display: flex;
  padding-left:20%;
- 
+ text-align:left;
+
 }
 
 p {
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-    text-transform:upper;
+    text-transform:uppercase;
      color: #030303;
      padding: 20px;
      top:500px;
@@ -193,7 +193,6 @@ p {
 
 #contactform {
   display: block;
-  float:center;
   margin:30%;
   top:70px;
   left:70px;
@@ -230,7 +229,6 @@ p {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  float:center;
   padding: 20%;
   margin: 20%;
  
@@ -242,7 +240,7 @@ h2.container  div{
 
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
- text-transform:upper;
+ text-transform:uppercase;
   color: #030303;
   padding: 20px;
   padding: 20%;
@@ -344,7 +342,7 @@ background: lightcoral;
 top: 25px;
 display: flex;
 position: relative;
-overflow:none;
+overflow:auto;
 
 }
 
@@ -462,11 +460,11 @@ background-color: black;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-  accent-color: lightcoral;
+ accent-color:lightcoral;
+ justify-items: center;
+ color:black;
 
  }
-
-
 
 
  #personalgallery {
@@ -488,6 +486,21 @@ background-color: black;
 
 .welcomelanding img:hover {
 opacity: 0.7;
-background-image: url("../images/coarlbg.jpg");
+background-image: url("..assets/images/coarlbg.jpg");
 
 } 
+
+
+.capm {
+
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+height: 20px;
+width: 100%;
+color:magenta;
+border-radius: 3px;
+
+
+
+
+}
