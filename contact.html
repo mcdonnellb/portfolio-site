@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/e41829fe90.js" crossorigin="anonymous"></script>
     <title> BM Front End Web Developer</title>
-<!-- Add icon library 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!-- Add icon library !-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -29,19 +29,22 @@
  <div class="flex-container">
   <div><a  href="tel:00353857638880" aria-label="Call my mobile or get my phone number here" class="phone" target="_blank"> Call me <i class="fa-solid fa-phone"></i></a></div>
   <div><a  href="mailto:bernadettemichelemcdonnell@gmail.com" class="mail" aria-label="Send me an email(opens in new tab)" target="_blank"> Direct email<i class="fa-solid fa-envelope-circle-check"></i></a></div>
-  <div><a  href="assets/files/BernadetteMcDonnell2022.docx.pdf" class="download"aria-label="Download a copy of my CV (saves locally to your downloads folder)" target="_blank">My CV<i class="fa-solid fa-download"></i></a></div>
+  <div><a  href="assets/files/BernadetteMcDonnell2022.docx.pdf" class="download"aria-label="Open my CV in PDF format in browser, will open in a new tab  (you can thensave locally to your downloads folder)" target="_blank">My CV<i class="fa-solid fa-download"></i></a></div>
 </div>
 
 <section>
  <div class="welcomelanding">
-    I am so excited that you are interested in working with me. Please get in touch below
+ <p> I am so excited that you are interested in working with me. Please get in touch below
 & down load a copy of my CV as this will answer many of the questions you may have
     Alternatively, use the email button to contact me directly
-    <i class="fa-solid fa-envelopes-bulk"></i>
+    <i class="fa-solid fa-envelopes-bulk"></i></p>
 </div>
 </section>
-<div class="container">
-<form action="mailto:bernadettemichelemcdonnell@gmail.com">
+
+<section  aria-label="This contains the contact form to get in touch with Bernadette"> 
+<div>
+  <h1>Get in touch with me!</h1>
+<form action="sendmail.html" class="form" name="contactform" id="container">
 <input type="text" placeholder="What is your name?" required id="fullname"> 
 <input type="email" placeholder="What is your email" name="email" id= "email" required>
 <input type="text" placeholder="What is your mobile number?" name="number" id="number" required>
@@ -50,7 +53,7 @@
 
 
   </form></div>
-
+</section>
 
 
 
