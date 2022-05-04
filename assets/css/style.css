@@ -40,19 +40,13 @@
  color:gray;
 }
 
-/* Adding padding to the body to avoid nav bar overlap*/
-body {
+/* Adding padding to the body to avoid nav bar overlap*//* Ensure the remaining content doesn't hide behind the #navbar on scroll: */
 
- 
-    /* Ensure the remaining content doesn't hide behind the #navbar on scroll: */
+body {
     position: absolute;
     z-index: 1;
     top: 100px;
-    background-image: url('..assets/images/jessie.jpg');
-  
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
 
 }
 
@@ -70,7 +64,7 @@ body {
   
   .navbar {
     display: block;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    text-align: left; 
 	  font-size: 2px;
     font-style: normal; 
 
@@ -169,10 +163,6 @@ p {
    
    }
    
-
-
-
-
 footer {
   height: 5%;
   
@@ -195,7 +185,7 @@ footer {
    .social-networks  i {
   font-size:160%; 
   padding:3%;
-  color: #3a3a3a;
+  color: #fffdfd;
   bottom:20px;
    }
 
@@ -444,7 +434,7 @@ color:gray;
  #professionalsummarysection {
 
   position: relative;
-  margin: 10%;
+  margin-left: 30%;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
