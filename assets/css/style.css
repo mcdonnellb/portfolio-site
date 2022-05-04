@@ -138,7 +138,7 @@ h1{
    
 }
 
-/*stlying the landing text area I'll be using on each page*/
+/*styling the landing text area I'll be using on each page*/
 
 .welcomelanding {
 
@@ -152,6 +152,16 @@ h1{
   
 }
 
+
+#photo1{
+
+width: 100%;
+height: 200px;
+background-image: url('../images/JesssieandBernadette.jpg');
+background-repeat: repeat-x;
+
+
+}
 
 p {
   font-family: 'Courier New', Courier, monospace;
@@ -209,7 +219,10 @@ footer {
   display: flex;
 }
 
+.fa-facebook:hover {
+color:gray;
 
+}
 
 .fa-linkedin {
   background: #55ACEE;
@@ -222,6 +235,12 @@ footer {
   
   
 }
+
+.fa-linkedin:hover {
+  color:gray;
+  
+  }
+
 .fa-instagram-square {
   background:#bc2a8d;
   color: white;
@@ -233,6 +252,11 @@ footer {
    display: flex;
   
 }
+
+.fa-instagram-square:hover {
+  color:gray;
+  
+  }
 .fa-github {
   background: #030303;
   color: white;
@@ -244,6 +268,10 @@ footer {
   display: flex;
   
 }
+.fa-github:hover {
+  color:gray;
+  
+  }
 
 /* adding a container for the mail, call and download buttons to sit below Nav Bar but above contact form on Contact Page*/
 
@@ -444,7 +472,11 @@ color:gray;
 
  }
 
+ #professionalsummarysection:hover {
 
+flex-wrap: wrap-reverse;
+
+ }
  #personalgallery {
   width: 100%;
   font-size: x-large;
@@ -464,5 +496,22 @@ color:gray;
 
 .welcomelanding img:hover  {
 opacity:0.7;
-} 
+transform: scale(1.5);
 
+
+/* CSS for the Carousel - this is not my code it is taken from https://css-tricks.com/css-only-carousel/*/
+#gallery {
+
+  clear:both;
+  line-height: 0;
+  column-count:8;
+  column-gap:0px;
+
+
+}
+
+#gallery > img {
+
+width: 100%;
+
+}
