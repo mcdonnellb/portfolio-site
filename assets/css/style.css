@@ -481,12 +481,26 @@ font-stretch: ultra-expanded;
 
 }
 
+/*container for images on homepage*/
+.containerimages{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border:1px solid #000;
+  position:relative;
+
+}
+
 .welcomelanding img 
 {
- max-width: 300px;
- max-height: 300px;
+  
+ width: 300px;
+ height: 300px;
  border-radius: 50%;
  float:right;
+ 
+align-items: center;
+
 }
 
 .welcomelanding img:hover  {
@@ -494,12 +508,19 @@ opacity:0.7;
 
 }
 
-circleimg{
-color:lightcoral;
-border:1px solid #000;
-width: 400px;
-height: 400px;
+#circleimg{
+border:15px solid #000;
+background-color: lightcoral;
+position:relative;
+width: 350px;
+height: 350px;
 border-radius:50%;
+float:right;
+justify-content: center;
+display:flex;
+ 
+align-items: center;
+
 }
 
 .fa-solid fa-graduation-cap {
