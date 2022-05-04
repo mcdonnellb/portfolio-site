@@ -45,9 +45,13 @@
 <div>
   <h1>Get in touch with me!</h1>
 <form action="sendmail.html" class="form" name="contactform">
-<input type="text" placeholder="What is your name?" required id="fullname"> 
-<input type="email" placeholder="What is your email" name="email" id= "email" required>
-<input type="text" placeholder="What is your mobile number?" name="number" id="number" required>
+  <label for="fullname"name="fullname" id="fullname"">Full Name</label>
+<input type="text" placeholder="Name?" required id="fullname"> 
+<label for="email"name="email" id="fullname"">Email Adress</label>
+<input type="email" placeholder="Email" name="email" id= "email" required>
+<label for="number"name="mobile" id="mobile">Your Mobile or contact number</label>
+<input type="text" placeholder="Mobile number" name="number" id="number" required>
+<label for="textarea"name="textarea" id="textarea">Your Message</label>
 <textarea placeholder="Enter Your Message Here" name="textarea" id="textarea" required></textarea>
 <input type="submit" name="contactbutton" id="contactbutton" required>
 
