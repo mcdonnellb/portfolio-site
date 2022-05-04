@@ -44,10 +44,15 @@
 body {
 
  
-    /* Ensure the remaining content doesn't hide behind the #navbar: */
+    /* Ensure the remaining content doesn't hide behind the #navbar on scroll: */
     position: absolute;
     z-index: 1;
     top: 100px;
+    background-image: url('..assets/images/jessie.jpg');
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -69,21 +74,12 @@ body {
 	  font-size: 2px;
     font-style: normal; 
 
-
-
   }
 #bm {
   display: block;
   text-align: left; 
 
 }
-
-
-
-}
-
-
-
 
 
 .gallery {
@@ -111,8 +107,7 @@ height:150px;
     width: 50%;
 	float:right;
 	
-	
-	
+}
 }
 
 .gallery h1 {
@@ -134,8 +129,7 @@ justify-content: center;
 }
 
 h1{
-	padding-left:20%;
-	margin:10%;
+
   justify-content: center;
   font-size: x-large;
   justify-content: center;
@@ -150,6 +144,7 @@ h1{
    
 }
 
+/*stlying the landing text area I'll be using on each page*/
 
 .welcomelanding {
 
@@ -161,6 +156,117 @@ h1{
   font-size: large;
 
   
+}
+
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+    text-transform:uppercase;
+     color: #030303;
+     padding: 20px;
+     top:500px;
+   
+   }
+   
+
+
+
+
+footer {
+  height: 5%;
+  
+
+  }
+  
+  .social-networks {
+  
+     text-align:center;
+  
+  }
+  
+  
+  .social-networks > li {
+  
+     display:inline;
+   
+   }
+  
+   .social-networks  i {
+  font-size:160%; 
+  padding:3%;
+  color: #3a3a3a;
+  bottom:20px;
+   }
+
+
+/*  hover effect for social sites- gray on hover common on all pages  */
+.fa:hover {
+ color:gray;
+}
+
+/* Setting a specific color for each social media site in the footer- common on all pages*/
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 70%;
+  width:10%;
+  height:5%;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+}
+
+
+
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+  font-size: 70%;
+  width:10%;
+  height:5%;
+  text-transform: uppercase;
+  text-align: center;
+  
+  
+}
+.fa-instagram-square {
+  background:#bc2a8d;
+  color: white;
+  font-size: 70%;
+  width:10%;
+  height:5%;
+  text-transform: uppercase;
+  text-align: center;
+   display: flex;
+  
+}
+.fa-github {
+  background: #030303;
+  color: white;
+  font-size: 70%;
+  width:10%;
+  height:5%;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  
+}
+
+/* adding a container for the mail, call and download buttons to sit below Nav Bar but above contact form on Contact Page*/
+
+.flex-container {
+width: 80%;
+height: 200px;
+margin: 20px auto; 
+padding-left: 20%;
+text-align:left;
+display: flex;
+justify-content: space-around;
+text-align:center;
+
 }
 /* Styling elements in contact form */
 input,  select, textarea {
@@ -178,16 +284,16 @@ input,  select, textarea {
 
 }
 
-p {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: large;
-    text-transform:uppercase;
-     color: #030303;
-     padding: 20px;
-     top:500px;
-   
-   }
-   
+
+
+
+.flex-container:hover {
+  background-color: gray;
+  font-size: 18px;
+ 
+  
+}
+
 
 
 
@@ -251,113 +357,7 @@ h2.container  div{
 
 
 
-footer {
-  height: 5%;
-  
-
-  }
-  
-  .social-networks {
-  
-     text-align:center;
-  
-  }
-  
-  
-  .social-networks > li {
-  
-     display:inline;
-   
-   }
-  
-   .social-networks  i {
-  font-size:160%; 
-  padding:3%;
-  color: #3a3a3a;
-  bottom:20px;
-   }
-
-
-/*  hover effect for social sites- add for main navbar too looks better than what I have  */
-.fa:hover {
- color:gray;
-}
-
-/* Setting a specific color for each site in the footer*/
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  font-size: 70%;
-  width:10%;
-  height:5%;
-  text-transform: uppercase;
-  text-align: center;
-  display: flex;
-}
-
-
-
-.fa-linkedin {
-  background: #55ACEE;
-  color: white;
-  font-size: 70%;
-  width:10%;
-  height:5%;
-  text-transform: uppercase;
-  text-align: center;
-  
-  
-}
-.fa-instagram-square {
-  background:#bc2a8d;
-  color: white;
-  font-size: 70%;
-  width:10%;
-  height:5%;
-  text-transform: uppercase;
-  text-align: center;
-   display: flex;
-  
-}
-.fa-github {
-  background: #030303;
-  color: white;
-  font-size: 70%;
-  width:10%;
-  height:5%;
-  text-transform: uppercase;
-  text-align: center;
-  display: flex;
-  
-}
-
-/* adding a container for the mail, call and download buttons to sit below Nav Bar but above contact form*/
-
-.flex-container {
-width: 80%;
-height: 200px;
-margin: 20px auto; 
-padding-left: 20%;
-text-align:left;
-display: flex;
-justify-content: space-around;
-text-align:center;
-
-}
-
-
-
-
-.flex-container:hover {
-  background-color: gray;
-  font-size: 18px;
-  background-image: url();
- 
-  
-}
-
+/* the buttons for downloading CV, Call or direct email*/
 .download {
   background-color: black;
   border-radius: 50%;
@@ -439,13 +439,7 @@ color:gray;
  line-height: 26.4px; 
 } 
 
-
- fa-solid fa-angle-down {
-
-  scroll-behavior: smooth;
-
- }
-
+/* Styling the Homepage*/
 
  #professionalsummarysection {
 
@@ -472,15 +466,13 @@ color:gray;
 
 .welcomelanding img 
 {
- max-width: 200px;
- max-height: 200px;
+ max-width: 100px;
+ max-height: 100px;
  border-radius: 50%;
  float:right;
 }
 
-.welcomelanding img:hover {
-color:gray;
-background-image: url("..assets/images/coarlbg.jpg");
-
+.welcomelanding img:hover  {
+opacity:0.7;
 } 
 
