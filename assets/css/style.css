@@ -49,7 +49,7 @@ body {
 
 
 }
-
+/* This section is dealing with the media queries to ensure the site is responsive to use on several devices/*
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
@@ -127,14 +127,17 @@ margin-left:30%;
   justify-content: center;
   font-size: x-large;
   justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: capitalize;
   
 }
 
- p h1 {
+ p {
 
 	padding-left:20%;
   Padding-top:150px;
   justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
    
 }
 
@@ -152,28 +155,27 @@ margin-left:30%;
   
 }
 
-
-#photo1{
-
-width: 100%;
-height: 500px;
-background-image: url('../images/JesssieandBernadette.jpg');
-background-repeat: no-repeat;
-animation: mymove 5s infinite;
-
-
-}
-
 p {
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-    text-transform:uppercase;
+    text-transform:initial;
      color: #030303;
      padding: 20px;
      top:500px;
    
    }
-   
+
+
+   p:hover {
+
+
+
+
+   }
+ 
+   /* the footer contains all of the social media links and will be on each html page*/
+
+
 footer {
   height: 5%;
   
@@ -310,7 +312,6 @@ input,  select, textarea {
   height: 50px; 
   border: 1px solid #ccc; 
   border-radius: 4px; 
-  box-shadow: lightcoral;
   box-sizing: border-box; 
   resize: vertical;
   display: flex;
@@ -323,13 +324,16 @@ input,  select, textarea {
 }
 
 
-h2{
+h2, h3{
+  position:relative;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  font-size: xx-large;
+  color:black;
+  accent-color:lightcoral;
+  text-transform: capitalize;
 
-display: flex;
-margin:25px;
-  margin-left:30%;
-  font-size: x-large;
-  justify-content: left;
+ 
   
 
 }
@@ -465,7 +469,7 @@ color:gray;
 
  #professionalsummarysection:hover {
 
-flex-wrap: wrap-reverse;
+font-stretch: ultra-expanded;
 
  }
  #personalgallery {
@@ -479,17 +483,34 @@ flex-wrap: wrap-reverse;
 
 .welcomelanding img 
 {
- max-width: 100px;
- max-height: 100px;
+ max-width: 300px;
+ max-height: 300px;
  border-radius: 50%;
  float:right;
 }
 
 .welcomelanding img:hover  {
 opacity:0.7;
-transform: scale(1.5);
 
 }
+
+circleimg{
+color:lightcoral;
+border:1px solid #000;
+width: 400px;
+height: 400px;
+border-radius:50%;
+}
+
+.fa-solid fa-graduation-cap {
+position:relative;
+float:left;
+margin:10%;
+
+
+
+}
+
 /* CSS for the Carousel - this is not my code it is taken from https://css-tricks.com/css-only-carousel/*/
 #gallery {
 
@@ -504,5 +525,14 @@ transform: scale(1.5);
 #gallery > img {
 
 width: 100%;
+
+}
+
+#thankyou{
+
+width:100%;
+display:flex;
+background-color: lightcoral;
+font
 
 }
