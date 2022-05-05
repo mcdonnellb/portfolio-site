@@ -154,8 +154,9 @@ p {
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
     height: 5%;
+    width:100%
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .social-networks {
     text-align:center;
@@ -170,9 +171,11 @@ footer {
 .social-networks  i {
     font-size:160%; 
     margin:1%;
-    padding:5%;
+    padding:15%;
     color: #fffdfd;
     bottom:20px;
+    justify-content: space-around;
+
  }
 
 
