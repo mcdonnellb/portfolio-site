@@ -164,13 +164,24 @@ h1{
   
 }
 
+h5{
+
+ text-align:center;
+
+}
+progress{
+
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+
+}
 
 /*styling the landing text area I'll be using on each page*/
 
 .welcomelanding {
 
   position: relative;
-  padding-left: 20%;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
@@ -185,13 +196,6 @@ p {
    
    }
 
-
-   p:focus-within {
-
-
-
-
-   }
  
    /* the footer contains all of the social media links and will be on each html page*/
 
@@ -354,10 +358,7 @@ h2, h3{
 
 }
 
-h4{
-margin-left:30%;
 
-}
 
 label{
  display:none;
@@ -559,6 +560,7 @@ width: 100%;
 width:100%;
 display:flex;
 background-color: lightcoral;
-font
+font-family: 'Courier New', Courier, monospace;
+
 
 }
