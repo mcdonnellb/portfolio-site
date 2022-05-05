@@ -153,12 +153,15 @@ p {
    }
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
-    z-index: 1;
+    height: 5%;
+
   }
 .social-networks {
     text-align:center;
     position:relative;
     display:block;
+    margin:1%;
+    padding:5%;
   }
   .social-networks > li {
       display:inline-block;
@@ -403,7 +406,7 @@ color:gray;
     line-height: 0;
     column-count:2;
     column-gap:0px;
-    padding:20%;
+    padding:5%;
 }
 .grid { 
     display: grid;
