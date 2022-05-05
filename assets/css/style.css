@@ -202,6 +202,7 @@ p {
 
 footer {
   height: 5%;
+  z-index: 1;
   
 
   }
@@ -350,6 +351,7 @@ h2, h3{
   display: block;
   font-size: large;
   color:black;
+  text-align:center;
   accent-color:lightcoral;
   text-transform: capitalize;
 
@@ -538,20 +540,41 @@ margin:1%;
 
 }
 
-/* CSS for the Carousel - this is not my code it is taken from https://css-tricks.com/css-only-carousel/*/
+/* CSS for the Carousel - this is not my code it is taken from https://www.quackit.com/html/html_editors/scratchpad/?example=/css/grid/examples/photo_gallery_flexible_width_span_3_columns_3_rows*/
 #gallery {
-
+  display:flex;
   clear:both;
   line-height: 0;
-  column-count:8;
+  column-count:2;
   column-gap:0px;
-
-
 }
+
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+  align-items: start;
+  justify-items: center;
+  }
+.grid img {
+  max-width: 100%;
+}
+.grid img:nth-child(2) {
+  grid-column: span 3;
+  grid-row: span 3;
+  }
+
+
+  .grid:hover {
+  resize: horizontal;
+  opacity:0.7;
+
+  }
 
 #gallery > img {
 
-width: 100%;
+width: 50%;
 
 }
 
