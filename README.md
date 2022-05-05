@@ -76,26 +76,6 @@ I had to do a lot of changing around the CSS to get the look I wanted
 Keep it simple
 Having a testing plan is so important ( for me especially) as you can go down a rabbit hole and lose a lot of time when the plan is not structured.
 
-Accessibility – using a screen reader was really illuminating and allowed me the opportunity to step into the shoes of a visually impaired end user, and so try and ensure to 
-
-
-
-I will be completely transparent as a lot of this was built prior to adding to gitpod, I don’t have  log of the whole journey, but tried to keep a list of some of the key items I ran into.
-
-The basic skeleton Template I had built from scratch looked like the below.
-
-It was just the bones of the type of site I knew I wanted with placeholders (eg: the images etc) 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
