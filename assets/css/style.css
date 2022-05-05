@@ -148,6 +148,7 @@ p {
     font-size: large;
     text-transform:initial;
     color: #030303;
+    padding:10%;
    }
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
