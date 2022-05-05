@@ -43,9 +43,10 @@
 /* Adding padding to the body to avoid nav bar overlap*//* Ensure the remaining content doesn't hide behind the #navbar on scroll: */
 
 body {
-    position: absolute;
+  position:absolute;
     z-index: 1;
     top: 100px;
+    height:100vh;
 
 
 }
@@ -201,8 +202,10 @@ p {
 
 
 footer {
-  height: 5%;
+
   z-index: 1;
+ 
+  
   
 
   }
@@ -210,6 +213,7 @@ footer {
   .social-networks {
   
      text-align:center;
+     position:relative;;
   
   }
   
@@ -225,6 +229,7 @@ footer {
   padding:3%;
   color: #fffdfd;
   bottom:20px;
+ 
    }
 
 
@@ -245,6 +250,7 @@ footer {
   text-transform: uppercase;
   text-align: center;
   display: flex;
+
 }
 
 .fa-facebook:hover {
@@ -260,6 +266,7 @@ color:gray;
   height:5%;
   text-transform: uppercase;
   text-align: center;
+
   
   
 }
@@ -278,6 +285,7 @@ color:gray;
   text-transform: uppercase;
   text-align: center;
    display: flex;
+ 
   
 }
 
@@ -294,6 +302,7 @@ color:gray;
   text-transform: uppercase;
   text-align: center;
   display: flex;
+ 
   
 }
 .fa-github:hover {
