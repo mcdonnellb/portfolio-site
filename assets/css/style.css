@@ -125,16 +125,19 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     text-transform: capitalize;
     text-align:center;
+
 }
 
 h5 {
     text-align:center;
 }
-progress {
+.pb {
+    display:block;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     color:black;
-
+    justify-content: flex-end;
+    
 }
 
 /*styling the landing text area I'll be using on each page*/
@@ -149,7 +152,7 @@ p {
     font-size: large;
     text-transform:initial;
     color: #030303;
-    padding:10%;
+    margin: 2px 1em 0 20%;
    }
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
@@ -345,17 +348,7 @@ h2.container  div{
 .phone:hover {
 color:gray;
 }
-#bm {
-/* Styling the BM item in the nav bar, this isnt a button so dont want it to change on hover */
-    background-color: black;
-    Float:right;
-    top:50%;  
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px; 
-} 
+
 /* Styling the Homepage*/
 #professional-summary-section {
     position: relative;
@@ -363,13 +356,16 @@ color:gray;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    text-align: center;
     accent-color:lightcoral;
     justify-items: center;
     color:black;
-    margin: 20%;
+    margin: 1em 1em 0 20%;
+    
 }
 #personal-gallery {
     width: 100%;
+    display: flex; 
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
     color:black;
