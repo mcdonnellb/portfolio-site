@@ -53,15 +53,15 @@ body {
   .navbar a {
     display: block;
     text-align: left; 
-	  font-size: 8px;
+	font-size: 8px;
     font-style: normal; 
 }
   
   
 .navbar {
-    display: block;
+    display: flex;
     text-align: left; 
-	  font-size: 3px;
+	font-size: 3px;
     font-style: normal; 
   }
 
@@ -136,14 +136,12 @@ progress {
 }
 
 /*styling the landing text area I'll be using on each page*/
-
 .welcome-landing {
     position: relative;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
-
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -157,6 +155,7 @@ footer {
 .social-networks {
     text-align:center;
     position:relative;
+    display:flexbox;
   }
   .social-networks > li {
       display:inline;
@@ -166,6 +165,12 @@ footer {
     padding:3%;
     color: #fffdfd;
     bottom:20px;
+ }
+
+
+ ul.social-networks {
+position:fixed;
+
  }
 /*  hover effect for social sites- gray on hover common on all pages  */
 .fa:hover {
@@ -231,16 +236,14 @@ footer {
     margin: 20px; 
     display: flex;
     text-align:center;
+    align-items: center;
+    
+    justify-content: space-around; 
 }
 .flex-container:hover {
-    background-color: gray;
-    font-size: 18px;
+  font-size: 18px;
 }
 
-input.contactform {
-        display:none;
-        justify-content: flex-start;
-}
 /* Styling elements in contact form */
 input,  select, textarea {
     width: 40%; 
@@ -251,7 +254,7 @@ input,  select, textarea {
     box-sizing: border-box; 
     resize: vertical;
     display: flex;
-    margin-left:30%;
+    margin: 25px 50px 20px 30%;
     font-size: x-large;
     justify-content: left;
 }
@@ -347,7 +350,6 @@ color:gray;
     Float:right;
     top:50%;  
     font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
-    font-size: 55%;
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
@@ -363,7 +365,7 @@ color:gray;
     justify-items: center;
     color:black;
 }
-#personalgallery {
+#personal-gallery {
     width: 100%;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
