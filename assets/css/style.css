@@ -93,14 +93,14 @@ height:150px;
     
 }
 
-.landingpage {
+.landing-page {
 	position:absolute;
     width: 50%;
 	float:left;
 	
 }
 
-.professionalsummary
+.professional-summary
 {
 display:block;
 float:left;
@@ -180,7 +180,7 @@ progress{
 
 /*styling the landing text area I'll be using on each page*/
 
-.welcomelanding {
+.welcome-landing {
 
   position: relative;
   text-transform: uppercase;
@@ -371,7 +371,7 @@ h2, h3{
 
 
 
-label{
+label.form {
  display:none;
 }
  #contactbutton {
@@ -488,7 +488,7 @@ color:gray;
 
 /* Styling the Homepage*/
 
- #professionalsummarysection {
+ #professional-summary-section {
 
   position: relative;
   text-transform: uppercase;
@@ -510,7 +510,7 @@ color:gray;
 
 /*container for images on homepage*/
 
-.welcomelanding img 
+.welcome-landing img 
 {
   
  max-width: 150px;
@@ -521,12 +521,12 @@ color:gray;
 
 }
 
-.welcomelanding img:hover  {
+.welcome-landing img:hover  {
 opacity:0.7;
 
 }
 
-#circleimg {
+#circle-img {
 border:15px solid #000;
 background-color: lightcoral;
 position:relative;
@@ -587,7 +587,7 @@ width: 50%;
 
 }
 
-#thankyou{
+#thank-you{
 
 width:100%;
 display:flex;
