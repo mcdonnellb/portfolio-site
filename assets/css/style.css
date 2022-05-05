@@ -96,11 +96,7 @@ body {
         border-radius:50%;
 }
 
-img{
-    width:50px;
-    height:50px;
-    border-radius:50%;
-}
+
 p {
 
     font-size: x-small;
@@ -161,10 +157,10 @@ footer {
 .social-networks {
     text-align:center;
     position:relative;
-    display:flexbox;
+    display:block;
   }
   .social-networks > li {
-      display:inline;
+      display:inline-block;
   }
 .social-networks  i {
     font-size:160%; 
@@ -175,7 +171,7 @@ footer {
 
 
  ul.social-networks {
-position:fixed;
+position:absolute;
 
  }
 /*  hover effect for social sites- gray on hover common on all pages  */
@@ -192,7 +188,6 @@ position:fixed;
     height:5%;
     text-transform: uppercase;
     text-align: center;
-    display: flex;
 }
 .fa-facebook:hover {
     color:gray;
