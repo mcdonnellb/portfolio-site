@@ -124,6 +124,7 @@ h1 {
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
     text-transform: capitalize;
+    text-align:center;
 }
 
 h5 {
@@ -133,7 +134,7 @@ progress {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     color:black;
-    justify-content: center;
+
 }
 
 /*styling the landing text area I'll be using on each page*/
@@ -360,12 +361,14 @@ color:gray;
 /* Styling the Homepage*/
 #professional-summary-section {
     position: relative;
+    display:inline-block;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     accent-color:lightcoral;
     justify-items: center;
     color:black;
+    margin: 20%;
 }
 #personal-gallery {
     width: 100%;
