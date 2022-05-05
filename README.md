@@ -90,9 +90,6 @@ contact.html
 sendmail.html
 
 
-
-
-Footer:
  
 Testing
 2.Function
@@ -121,9 +118,8 @@ Styling:
 Error log:
 o	CSS missing from Portfolio HTML Page.
 
--	 
 
-Error response – inspiring me to add an error response page to bring users back to safety 
+Error response – inspiring me to try to add an error response page to bring users back to safety 
  
 
 

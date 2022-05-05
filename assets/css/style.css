@@ -93,8 +93,7 @@ body {
 
 
 #circle-img{
-    resize: calc(10%);
-    border-radius:50%;
+        border-radius:50%;
 }
 
 img{
@@ -245,21 +244,26 @@ footer {
     background-color: gray;
     font-size: 18px;
 }
+
+input.contactform {
+        display:none;
+        justify-content: flex-start;
+}
 /* Styling elements in contact form */
 input,  select, textarea {
     width: 40%; 
     height: 50px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
+    padding:5px;
     box-sizing: border-box; 
     resize: vertical;
     display: flex;
-    margin:25px;
     margin-left:30%;
     font-size: x-large;
     justify-content: left;
 }
-h2, h3{
+h2, h3 {
     position:relative;
     font-family: 'Courier New', Courier, monospace;
     display: block;
@@ -269,7 +273,7 @@ h2, h3{
     accent-color:lightcoral;
     text-transform: capitalize;
 }
-label.form {
+label {
     display:none;
 }
 #contactbutton {
@@ -397,10 +401,11 @@ color:gray;
     display:flex;
     align-items: center;
 }
-.fa-solid fa-graduation-cap {
+.fa-solid  {
     position:relative;
     float:left;
     margin:1%;
+    border:2px;
 }
 /* CSS for the Carousel - this is not my code it is taken from https://www.quackit.com/html/html_editors/scratchpad/?example=/css/grid/examples/photo_gallery_flexible_width_span_3_columns_3_rows*/
 #gallery {
@@ -416,7 +421,7 @@ color:gray;
     grid-gap: 2px;
     align-items: start;
     justify-items: center;
-  }
+}
 .grid img {
     max-width: 100%;
 }
@@ -424,13 +429,10 @@ color:gray;
     grid-column: span 3;
     grid-row: span 3;
   }
-
-
 .grid:hover {
     resize: horizontal;
     opacity:0.7;
 }
-
 #gallery > img {
     width: 50%;
 }
