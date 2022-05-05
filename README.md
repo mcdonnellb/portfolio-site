@@ -107,14 +107,6 @@ Styling:
 
 
 
-
-
-
-  
-
- 
-
-
 Error log:
 o	CSS missing from Portfolio HTML Page.
 
@@ -149,7 +141,9 @@ o	https://www.davidmilan.com/
 o	https://www.thaiphamphotography.com/
 o	analeovy.com
 o	https://www.ryanhaskins.com/
-
+o   http://www.rleonardi.com/design-portfolio/
+o   https://samanthakeelysmith.com/
+o   https://kennethreitz.org/
 
 Icons taken from Font Awesome:
 https://fontawesome.com/search?q=gradu&s=solid%2Cbrands

@@ -105,7 +105,7 @@ p {
 
 .gallery h1 {
     position:absolute;
-	  margin:10%;
+	margin:10%;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     justify-content: center;
@@ -402,6 +402,7 @@ color:gray;
     line-height: 0;
     column-count:2;
     column-gap:0px;
+    padding:20%;
 }
 .grid { 
     display: grid;
