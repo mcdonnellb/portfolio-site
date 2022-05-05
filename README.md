@@ -155,7 +155,8 @@ o	analeovy.com
 o	https://www.ryanhaskins.com/
 
 
-
+Icons taken from Font Awesome:
+https://fontawesome.com/search?q=gradu&s=solid%2Cbrands
 
 
 Lessons Learned:
