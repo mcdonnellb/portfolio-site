@@ -240,7 +240,6 @@ position:fixed;
     display: flex;
     text-align:center;
     align-items: center;
-    
     justify-content: space-around; 
 }
 .flex-container:hover {
@@ -255,11 +254,10 @@ input,  select, textarea {
     border-radius: 4px; 
     padding:5px;
     box-sizing: border-box; 
-    resize: vertical;
     display: flex;
     margin: 25px 50px 20px 30%;
-    font-size: x-large;
-    justify-content: left;
+    font-size: large;
+    text-align:left;
 }
 h2, h3 {
     position:relative;
@@ -402,7 +400,7 @@ color:gray;
 }
 .fa-solid  {
     position:relative;
-    float:left;
+   
     margin:1%;
     border:2px;
 }
