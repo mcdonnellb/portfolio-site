@@ -133,6 +133,7 @@ progress {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     color:black;
+    justify-content: center;
 }
 
 /*styling the landing text area I'll be using on each page*/
