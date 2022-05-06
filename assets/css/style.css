@@ -161,6 +161,7 @@ footer {
     height: 5%;
     width:100%;
     display: flex;
+    justify-content: space-around; 
 }
 .social-networks {
     text-align:center;
@@ -170,23 +171,22 @@ footer {
   }
   .social-networks > li {
       display:inline-block;
-
   }
 .social-networks  i {
     font-size:160%; 
-    margin:25px;
+    margin:100px;
     padding:30%;
     color: #fffdfd;
     bottom:20px;
-    justify-content: space-evenly; 
+    justify-content:center; 
     align-items: center;
-
-
  }
 
 
  ul.social-networks {
 position:absolute;
+justify-content: center; 
+align-items: center;
 
  }
 /*  hover effect for social sites- gray on hover common on all pages  */
