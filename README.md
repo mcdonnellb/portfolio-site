@@ -151,7 +151,10 @@ Error response – inspiring me to try to add an error response page to bring us
 
 #### CSS VALIDATION**
 
- ** Insert Image of CSS Validation**
+I ran my CSS through this tool every few days to ensure all errors I had not noticed were removed:
+https://jigsaw.w3.org/css-validator/
+
+assets/images/css-validation.jpg
 
 
 ### Citations:
