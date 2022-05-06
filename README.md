@@ -70,13 +70,15 @@ The overall appearance of the website is aimed to be airy and minimalistic as I 
 
 /assets/images/electrocat.png
 
-Iphone Image
+assets/images/desktop-contact.jpg
+assets/images/contact-mobile.jpg
+assets/images/desktop-index.jpg
+assets/images/iphone-index.jpg
+assets/images/desktop-portfolio.jpg
+assets/images/portfolio-mobile.jpg
+assets/images/desktop-sendmail.jpg
+assets/images/iphone-sendmail.jpg
 
-
-Samsung Image
-
-
-Desktop Image
 
 
 
