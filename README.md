@@ -1,5 +1,12 @@
 **Background to my idea & purpose of the project**
-For Project 1 my idea is to do a professional portfolio site for my work. The target audience will be recruiters or those looking for freelance web developers. The idea will be simple and consist of three responsive HTML pages. (There will be a fourth page but it is a dummy for the contact form)
+For Project 1 my idea is to do a professional portfolio site for my work. The target audience will be recruiters or those looking for freelance web developers. The idea will be simple and consist of three static HTML pages styled using CSS. (There will be a fourth page but it is a dummy for the contact form)
+
+*   index.html
+*   portfolio.html
+*   contact.html
+*   sendmail.html
+
+The idea is simple and will allow me to keep building on this site as my skillset grows.
 
 I learned a lot from the love running project and planned to use the format as almost a template for what a good basic site should look like from a structural perspective. I drew inspiration from many sites for the purposes of this project, links below to 2 award winning sites that I found particularly intriguing.
 
@@ -7,20 +14,32 @@ http://www.rleonardi.com/design-portfolio/
 http://y78.fr/3/
 
 
+My site can be accessed at the below Github repository:
+https://mcdonnellb.github.io/portfolio-site/
+
+
 # Table of Content
++ [User Experience](#userexperience "User Experience")
+  + [User Stories](#user-stories "User Stories")
+  + [User Goals](#user-goals "User Goals")
+  + [Requirements](#requirements "Requirements")
+  + [Design](#design "Design")
+    + [Typography](#typography "Typography")
+    + [Personal Bio](#personalbio "Personal Bio")
+    + [Contact Page](#contactpage "Contact Page")
+    + [Common Features](#commonfeatures "Common Features")
++ [Accessibility](#accessability "Accessability")
+  + [Testing](#testing "Testing")
+    + [Functionality](#functionality "Functionality")
+    + [Styling](#styling "Styling")
+    + [Error Log](#errorlog "Error Log")
+    + [CSS Validation](#cssvalidation "CSS Validation")
+    + [HTML Validation](#htmlvalidation "HTML Validation")
 
-
-
-
-
-
-
-
-
-
-
-
-
+  + [Citations](#citations "Citations")
++ [Lessons Learned](#lessons-learned “Lessons Learned")
++ [Quirks](#quirks "Quirks")
+  + [Future Features](#future-features "Future Features")
 
 
 
@@ -39,21 +58,34 @@ http://y78.fr/3/
 * 3 static HTML pages styled using external CSS file
 *   Responsive for mobile use
 *   Deployment through cloud solution eg GIT
-*   
 
 
 
+### Design
 
-
-
-
-
-### Planned layout and Features
-
-#### Styling:
 The overall appearance of the website is aimed to be airy and minimalistic as I am unfortunately not much of a visual artist. The site will be created using a colorscheme of White background, black text and light coral accents.
 
-**Font/ Typography**
+
+### Wireframes of the finished product:
+
+/assets/images/electrocat.png
+
+Iphone Image
+
+
+Samsung Image
+
+
+Desktop Image
+
+
+
+**Key questions I asked myself**
+*	Is the design consistent across all pages?
+*	Is the style displaying as expected in different browsers?
+*	Is the layout meaningful and straightforward, with minimal clicks?
+
+**Typography**
 I have used the following throughout the website to ensure consistency. I chose this as I felt it aligned with my style preference but also was clear and concise for the ‘wordy’ sections.
 Page 1. Homepage/index – basic landing page
 
@@ -63,7 +95,7 @@ Page 1. Homepage/index – basic landing page
 *	Gallery wheel or grid showing some sample projects that were not done by me
 Images and links to portfolio sites I liked:
 
-**Page 3. Contact Page**
+**Contact Page**
 *	Basic HTML form
 *	Buttons for call, CV, direct email
 
@@ -71,33 +103,20 @@ Images and links to portfolio sites I liked:
 *	Header Nav Bar
 *	Footer with social media links
 *	Landing page text
-
 *	I want to use a regular Top  Nav bar that contains Home, Portfolio, Contact.
 *	Footer Containing social Media links
 *	404 error page- providing a link back to safety if something is amiss, typo in web address etc to ensure user knows how to get back to the page.
 
 **Accessibility**
 Items I aimed to address from the accessibility testing;
-1.	Ensure content is screen reader friendly using aria labels and meaningful sections/ any non text elements also labeled
-2.	Ensure content is responsive for use on mobile/tablet etc.
-
+*	Ensure content is screen reader friendly using aria labels and meaningful sections/ any non text elements also labeled
+*	Ensure content is responsive for use on mobile/tablet etc.
 *	Top navigation bar responsive to device use
 *	Open all external sites in new tab
 	
 My first pass at addressing scalability is using media queries alone and checking with web dev tools in browser to see the outcome.
 
 To begin with I used percentages to try and address accessibility across devices, then added some flex to the CSS to ensure the site is suitable for mobile/ tablet use.
-
-
-**1.Design**
-Key questions I asked myself
-*	Is the design consistent across all pages?
-*	Is the style displaying as expected in different browsers?
-*	Is the layout meaningful and straightforward, with minimal clicks?
-index.html
-portfolio.html
-contact.html
-sendmail.html
 
 
  
@@ -185,14 +204,3 @@ https://fontawesome.com/search?q=gradu&s=solid%2Cbrands
 *	Dark Mode button to switch the styling to Dark background and white text.
 
 
-### Wireframes of the finished product:
-
-/assets/images/electrocat.png
-
-Iphone Image
-
-
-Samsung Image
-
-
-Desktop Image
