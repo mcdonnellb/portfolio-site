@@ -69,18 +69,14 @@ The overall appearance of the website is aimed to be airy and minimalistic as I 
 ### Wireframes of the finished product:
 
 
-(/assets/images/desktop-contact.jpg)
-(/assets/images/contact-mobile.jpg)
-(/assets/images/desktop-index.jpg)
-(/assets/images/iphone-index.jpg)
-(/assets/images/desktop-portfolio.jpg)
-(/assets/images/portfolio-mobile.jpg)
-(/assets/images/desktop-sendmail.jpg)
-(/assets/images/iphone-sendmail.jpg)
-(/assets/images/readme-images/footer-section.png)
-
-
-
+![Desktop Contact](/assets/images/desktop-contact.jpg)
+![Mobile Contact](/assets/images/contact-mobile.jpg)
+![Deskop Index](/assets/images/desktop-index.jpg)
+![Mobile Index](/assets/images/iphone-index.jpg)
+![Desktop Porfolio](/assets/images/desktop-portfolio.jpg)
+![Mobile Portfolio](/assets/images/portfolio-mobile.jpg)
+![Desktop Sendmail](/assets/images/desktop-sendmail.jpg)
+![Mobile Sendmail](/assets/images/iphone-sendmail.jpg)
 
 **Key questions I asked myself**
 *	Is the design consistent across all pages?
