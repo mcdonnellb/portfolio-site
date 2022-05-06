@@ -157,7 +157,7 @@ https://jigsaw.w3.org/css-validator/
 assets/images/css-validation.jpg
 
 
-### Citations:
+### Citations
 My code was loosely based around inspiration from Love Running
 
 The Carousel for the Portfolio section is not of my own creation, I used code I found on the below website and have cited it within the code itself to ensure it is known I am not taking credit for anothers work.
@@ -184,7 +184,7 @@ Icons taken from Font Awesome:
 https://fontawesome.com/search?q=gradu&s=solid%2Cbrands
 
 
-### Lessons Learned:
+### Lessons Learned
 *	My biggest error was starting this project before I had completed all of the HTML and CSS content. I built it in notepad++ and tested in the browser. I lost approx. 60 hours purely on trial and error, which had I focused on the content I would have had more knowledge built up before attempting to build the site. – this is why my first few commits are huge as I had the mammoth task of copying everything over from notepad++ to gitpod.
 *	Use the Code institute template – as it contains all of the ne
 *	Commit early and often, and use the meaningful messages. I found myself switching tenses a lot and adding generic notes as I had made so many changes I couldn’t recall the main items amended.
