@@ -150,11 +150,14 @@ h5 {
     font-size: large;
 }
 p {
+    display:flex;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     text-transform:initial;
     color: #030303;
-   justify-content: center;
+    justify-content: center;
+    text-align:center;
+   
    }
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
@@ -447,11 +450,13 @@ text-align:center;
 align-items: center;
 }
 #thank-you{
-    width:40%;
+    width:50%;
+    margin:20%;
     height: 100%;
     background-color: lightcoral;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     text-align:center;
     align-items: center;
+    justify-content: center;
 }
