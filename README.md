@@ -68,9 +68,9 @@ The overall appearance of the website is aimed to be airy and minimalistic as I 
 
 ### Wireframes of the finished product:
 
-/assets/images/electrocat.png
 
 assets/images/desktop-contact.jpg
+/workspace/COURSE-WORK/assets/images/christinavanessawebsite.jpg
 assets/images/contact-mobile.jpg
 assets/images/desktop-index.jpg
 assets/images/iphone-index.jpg
