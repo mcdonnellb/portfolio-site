@@ -47,6 +47,7 @@ body {
     height:100vh;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 /* This section is dealing with the media queries to ensure the site is responsive to use on several devices/*
 
@@ -162,6 +163,7 @@ footer {
     width:100%;
     display: flex;
     justify-content: space-around; 
+    justify-content: center;
 }
 .social-networks {
     text-align:center;
@@ -174,18 +176,18 @@ footer {
   }
 .social-networks  i {
     font-size:160%; 
-    margin:100px;
-    padding:30%;
+    margin:40%;
+    padding:15px;
     color: #fffdfd;
     bottom:20px;
-    justify-content:center; 
-    align-items: center;
+    justify-content: space-evenly; 
+
  }
 
 
  ul.social-networks {
 position:absolute;
-justify-content: center; 
+justify-content: space-evenly; 
 align-items: center;
 
  }
@@ -359,7 +361,7 @@ color:gray;
 /* Styling the Homepage*/
 #professional-summary-section {
     position: relative;
-    display:inline-block;
+    display:inline-flexbox;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -384,7 +386,7 @@ color:gray;
     max-height: 150px;
     border-radius: 50%;
     float:right;
-    align-items: center;
+    
 }
 .welcome-landing img:hover  {
     opacity:0.7;
@@ -446,7 +448,7 @@ text-align:center;
 align-items: center;
 }
 #thank-you{
-    width:100%;
+    width:40%;
     height: 100%;
     background-color: lightcoral;
     font-family: 'Courier New', Courier, monospace;
