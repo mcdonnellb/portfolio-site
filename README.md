@@ -73,7 +73,7 @@ The overall appearance of the website is aimed to be airy and minimalistic as I 
 ![Mobile Contact](/assets/images/contact-mobile.jpg)
 ![Deskop Index](/assets/images/desktop-index.jpg)
 ![Mobile Index](/assets/images/iphone-index.jpg)
-![Desktop Porfolio](/assets/images/desktop-portfolio.jpg)
+![Desktop Porfolio](/assets/images/desktop-porfolio.jpg)
 ![Mobile Portfolio](/assets/images/portfolio-mobile.jpg)
 ![Desktop Sendmail](/assets/images/desktop-sendmail.jpg)
 ![Mobile Sendmail](/assets/images/iphone-sendmail.jpg)
