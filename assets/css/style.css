@@ -11,7 +11,7 @@
       display:block;
       border: 3px solid lightcoral;
       z-index: 100;
-      display:inline-block;
+    
 }
 
 /* Navigation bar  links */
@@ -45,9 +45,8 @@ body {
     z-index: 1;
     top: 100px;
     height:100vh;
-    display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    text-align: center;
 }
 /* This section is dealing with the media queries to ensure the site is responsive to use on several devices/*
 
@@ -65,12 +64,13 @@ body {
     display: flex;
     text-align: left; 
 	font-size: 3px;
-    font-style: normal; 
+    font-style: normal;
+    width:100%; 
   }
 
 body{
     display:flex;
-flex: 100%;
+    flex: 100%;
 }
 
 .gallery {
@@ -154,8 +154,7 @@ p {
     font-size: large;
     text-transform:initial;
     color: #030303;
-    margin: 2px 1em 0 20%;
-    justify-content: center;
+   justify-content: center;
    }
    /* the footer contains all of the social media links and will be on each html page*/
 footer {
@@ -369,7 +368,7 @@ color:gray;
     accent-color:lightcoral;
     justify-items: center;
     color:black;
-    margin: 1em 1em 0 20%;
+    margin: 1em;
     
 }
 #personal-gallery {
