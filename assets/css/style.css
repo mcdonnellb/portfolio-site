@@ -363,7 +363,6 @@ color:gray;
 /* Styling the Homepage*/
 #professional-summary-section {
     position: relative;
-    display:inline-flexbox;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
